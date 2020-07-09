@@ -1,0 +1,7 @@
+def sum(arr):
+    mylist = [6,7,8,9]
+    newlist = [x for x in arr if x not in mylist]
+    if not arr:
+        return 0
+    else:
+        return sum(newlist)
